@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<ruleset name="SEO Confident" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/PHPCSStandards/PHP_CodeSniffer/master/phpcs.xsd">
+    <description>Coding standards for SEO Confident.</description>
+
+    <file>.</file>
+    <exclude-pattern>/vendor/*</exclude-pattern>
+    <exclude-pattern>/node_modules/*</exclude-pattern>
+    <exclude-pattern>/dist/*</exclude-pattern>
+
+    <arg name="extensions" value="php"/>
+    <arg name="basepath" value="./"/>
+    <arg name="parallel" value="8"/>
+    <arg name="colors"/>
+    <arg value="ps"/>
+
+    <!-- Oldest PHP and WordPress versions the plugin supports. -->
+    <config name="testVersion" value="7.4-"/>
+    <config name="minimum_supported_wp_version" value="5.8"/>
+
+    <rule ref="PHPCompatibilityWP">
+        <!-- PHP 8.6 adds the form feed to the characters trim() removes by default. That makes no difference to the text this plugin trims. -->
+        <exclude name="PHPCompatibility.ParameterValues.NewTrimCharactersDefault"/>
+    </rule>
+
+    <rule ref="WordPress-Extra">
+        <!-- The code base uses four space indentation rather than tabs, so the layout rules are relaxed. -->
+        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent"/>
+        <exclude name="Universal.WhiteSpace.PrecisionAlignment"/>
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
+        <exclude name="Squiz.PHP.EmbeddedPhp"/>
+        <exclude name="WordPress.WhiteSpace.ControlStructureSpacing"/>
+        <exclude name="WordPress.Arrays.MultipleStatementAlignment"/>
+        <exclude name="WordPress.Arrays.ArrayDeclarationSpacing"/>
+        <exclude name="Generic.Formatting.MultipleStatementAlignment"/>
+        <exclude name="PEAR.Functions.FunctionCallSignature"/>
+
+        <!-- Hook and shortcode callbacks must accept the arguments WordPress passes, even when unused. -->
+        <exclude name="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+
+        <!-- The main plugin file holds the SEO_Confident class, and one helper sits beside the breadcrumbs class. -->
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+        <exclude name="Universal.Files.SeparateFunctionsFromOO"/>
+    </rule>
+
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array">
+                <element value="seo-confident"/>
+            </property>
+        </properties>
+    </rule>
+
+    <rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+        <properties>
+            <property name="prefixes" type="array">
+                <element value="seoc"/>
+                <element value="SEOC"/>
+                <element value="SEO_Confident"/>
+            </property>
+        </properties>
+    </rule>
+</ruleset>

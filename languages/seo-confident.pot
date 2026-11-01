@@ -1,0 +1,282 @@
+# Copyright (C) 2024-2026 Digivator
+# This file is distributed under the same license as the SEO Confident plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Confident 1.0.0\n"
+"Report-Msgid-Bugs-To: https://digivator.co.uk\n"
+"POT-Creation-Date: 2026-04-06 12:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: seo-confident.php:45
+msgid "SEO Confident"
+msgstr ""
+
+#: includes/class-seoc-settings.php:25
+msgid "SEO Confident Settings"
+msgstr ""
+
+#: includes/class-seoc-settings.php:26
+msgid "Lightweight SEO for WordPress."
+msgstr ""
+
+#: includes/class-seoc-settings.php:35
+msgid "SEO Confident plugin settings"
+msgstr ""
+
+#: includes/class-seoc-settings.php:44
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/class-seoc-settings.php:50
+msgid "Homepage Meta Tags"
+msgstr ""
+
+#: includes/class-seoc-settings.php:53
+msgid "Title"
+msgstr ""
+
+#: includes/class-seoc-settings.php:58
+msgid "Meta Description"
+msgstr ""
+
+#: includes/class-seoc-settings.php:59
+msgid "Recommended: 150-160 characters."
+msgstr ""
+
+#: includes/class-seoc-settings.php:63
+msgid "Keywords"
+msgstr ""
+
+#: includes/class-seoc-settings.php:69
+msgid "Title Format"
+msgstr ""
+
+#: includes/class-seoc-settings.php:72
+msgid "Title Separator"
+msgstr ""
+
+#: includes/class-seoc-settings.php:84
+msgid "Social / Open Graph"
+msgstr ""
+
+#: includes/class-seoc-settings.php:87
+msgid "Default OG Image URL"
+msgstr ""
+
+#: includes/class-seoc-settings.php:89
+#: includes/class-seoc-settings.php:111
+msgid "Select Image"
+msgstr ""
+
+#: includes/class-seoc-settings.php:93
+msgid "Twitter Card Type"
+msgstr ""
+
+#: includes/class-seoc-settings.php:95
+msgid "Summary"
+msgstr ""
+
+#: includes/class-seoc-settings.php:96
+msgid "Summary with Large Image"
+msgstr ""
+
+#: includes/class-seoc-settings.php:103
+msgid "Site-wide Schema"
+msgstr ""
+
+#: includes/class-seoc-settings.php:106
+msgid "Organisation Type"
+msgstr ""
+
+#: includes/class-seoc-settings.php:108
+msgid "Organisation"
+msgstr ""
+
+#: includes/class-seoc-settings.php:109
+msgid "Local Business"
+msgstr ""
+
+#: includes/class-seoc-settings.php:110
+msgid "Person"
+msgstr ""
+
+#: includes/class-seoc-settings.php:114
+msgid "Name"
+msgstr ""
+
+#: includes/class-seoc-settings.php:118
+msgid "Logo URL"
+msgstr ""
+
+#: includes/class-seoc-settings.php:123
+msgid "Logo Dimensions"
+msgstr ""
+
+#: includes/class-seoc-settings.php:124
+#: includes/class-seoc-settings.php:125
+msgid "Width (px)"
+msgstr ""
+
+#: includes/class-seoc-settings.php:126
+msgid "Height (px)"
+msgstr ""
+
+#: includes/class-seoc-settings.php:128
+msgid "Logo width and height in pixels. Optional for schema validation."
+msgstr ""
+
+#: includes/class-seoc-settings.php:131
+msgid "Email"
+msgstr ""
+
+#: includes/class-seoc-settings.php:135
+msgid "Social Profiles (sameAs)"
+msgstr ""
+
+#: includes/class-seoc-settings.php:136
+msgid "One URL per line:"
+msgstr ""
+
+#: includes/class-seoc-settings.php:139
+msgid "One social profile URL per line. Commonly used: Facebook, Twitter, Instagram, LinkedIn, YouTube."
+msgstr ""
+
+#: includes/class-seoc-settings.php:143
+msgid "Area Served"
+msgstr ""
+
+#: includes/class-seoc-settings.php:145
+msgid "e.g., US, Worldwide, London, UK"
+msgstr ""
+
+#: includes/class-seoc-settings.php:147
+msgid "Geographic areas or region codes where your business operates. Comma-separated for multiple areas."
+msgstr ""
+
+#: includes/class-seoc-settings.php:153
+msgid "Custom Wide Schema"
+msgstr ""
+
+#: includes/class-seoc-settings.php:154
+msgid "Add custom JSON-LD schema that will be merged with or extend the standard site-wide schema. This allows you to add complex schema structures, additional organization details, or any other schema.org types."
+msgstr ""
+
+#: includes/class-seoc-settings.php:159
+msgid "Custom JSON-LD Schema"
+msgstr ""
+
+#: includes/class-seoc-settings.php:169
+msgid "Paste valid JSON-LD here. This will be output as a separate &lt;script type=\"application/ld+json\"&gt; block. Validation happens on save."
+msgstr ""
+
+#: includes/class-seoc-settings.php:175
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/class-seoc-settings.php:178
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: includes/class-seoc-settings.php:179
+msgid "Output breadcrumb schema markup"
+msgstr ""
+
+#: includes/class-seoc-settings.php:184
+msgid "Technical SEO"
+msgstr ""
+
+#: includes/class-seoc-settings.php:187
+msgid "HTML Language"
+msgstr ""
+
+#: includes/class-seoc-settings.php:188
+msgid "e.g. en, en-GB, fr"
+msgstr ""
+
+#: includes/class-seoc-settings.php:191
+msgid "Security Headers"
+msgstr ""
+
+#: includes/class-seoc-settings.php:192
+msgid "Add X-Frame-Options, Referrer-Policy, X-Content-Type-Options"
+msgstr ""
+
+#: includes/class-seoc-settings.php:195
+msgid "Preconnect Hints"
+msgstr ""
+
+#: includes/class-seoc-settings.php:196
+msgid "Add preconnect for Google Fonts and analytics"
+msgstr ""
+
+#: includes/class-seoc-settings.php:199
+msgid "Fix tel: Links"
+msgstr ""
+
+#: includes/class-seoc-settings.php:200
+msgid "Convert tel:009... to tel:+... format"
+msgstr ""
+
+#: includes/class-seoc-settings.php:203
+msgid "Strip ?media_link"
+msgstr ""
+
+#: includes/class-seoc-settings.php:204
+msgid "301 redirect URLs with ?media_link parameter to clean version"
+msgstr ""
+
+#: includes/class-seoc-settings.php:207
+msgid "Auto Image Alt Text"
+msgstr ""
+
+#: includes/class-seoc-settings.php:208
+msgid "Generate alt text for images with empty alt attributes"
+msgstr ""
+
+#: includes/class-seoc-settings.php:212
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-seoc-settings.php:236
+msgid "Validate JSON"
+msgstr ""
+
+#: includes/class-seoc-settings.php:273
+msgid "✓ Valid JSON"
+msgstr ""
+
+#: includes/class-seoc-settings.php:275
+msgid "✗ Invalid JSON: "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "SEO Confident"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://digivator.co.uk"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A lightweight SEO plugin. Meta tags, XML sitemaps, canonical URLs, Open Graph, Twitter Cards, schema markup, robots.txt, llms.txt, redirects, breadcrumbs, and technical SEO hardening."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Digivator"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://digivator.co.uk"
+msgstr ""
+
+#. translators: %s: link to the developer's website
+#: includes/class-seoc-settings.php
+msgid "Made by %s"
+msgstr ""
