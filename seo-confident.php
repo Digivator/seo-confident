@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name: SEO Confident
- * Plugin URI: https://digivator.co.uk
  * Description: A lightweight SEO plugin. Meta tags, XML sitemaps, canonical URLs, Open Graph, Twitter Cards, schema markup, robots.txt, llms.txt, redirects, breadcrumbs, and technical SEO hardening.
  * Version: 1.0.0
  * Author: Digivator
@@ -12,7 +11,6 @@
  * Domain Path: /languages
  * Requires at least: 5.8
  * Requires PHP: 7.4
- * Network: false
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

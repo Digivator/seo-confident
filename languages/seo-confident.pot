@@ -260,10 +260,6 @@ msgstr ""
 msgid "SEO Confident"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "https://digivator.co.uk"
-msgstr ""
-
 #. Description of the plugin/theme
 msgid "A lightweight SEO plugin. Meta tags, XML sitemaps, canonical URLs, Open Graph, Twitter Cards, schema markup, robots.txt, llms.txt, redirects, breadcrumbs, and technical SEO hardening."
 msgstr ""
